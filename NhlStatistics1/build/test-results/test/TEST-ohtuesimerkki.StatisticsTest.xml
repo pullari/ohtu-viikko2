@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ohtuesimerkki.StatisticsTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2017-03-23T19:37:38" hostname="pullis-PC" time="0.002">
+  <properties/>
+  <testcase name="testTeam" classname="ohtuesimerkki.StatisticsTest" time="0.002"/>
+  <testcase name="testTopScorers" classname="ohtuesimerkki.StatisticsTest" time="0.0"/>
+  <testcase name="testSearchWithWrongName" classname="ohtuesimerkki.StatisticsTest" time="0.0"/>
+  <testcase name="testSearch" classname="ohtuesimerkki.StatisticsTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
