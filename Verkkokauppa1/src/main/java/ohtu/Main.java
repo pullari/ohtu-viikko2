@@ -14,12 +14,7 @@ public class Main {
         
         ApplicationContext ctx = new FileSystemXmlApplicationContext("src/main/resources/spring-context.xml");
         
-        
         Kirjanpito kp = new Kirjanpito();
-        Varasto var = new Varasto(kp);
-        Pankki pan = new Pankki(kp);
-        Viitegeneraattori vg = new Viitegeneraattori();
-        
         Kauppa kauppa = ctx.getBean(Kauppa.class);
 
         // kauppa hoitaa yhden asiakkaan kerrallaan seuraavaan tapaan:
